@@ -1,0 +1,17 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%SELECT%%> and <%%ENDSELECT%%> formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the Marks_init() hook (in hooks/Marks.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="Marks-name-<%%VALUE(id)%%>" class="Marks-name"><%%SELECT%%><%%VALUE(name)%%><%%ENDSELECT%%></td>
+		<td id="Marks-unit-<%%VALUE(id)%%>" class="Marks-unit"><%%SELECT%%><%%VALUE(unit)%%><%%ENDSELECT%%></td>
+		<td id="Marks-student-<%%VALUE(id)%%>" class="Marks-student"><%%SELECT%%><%%VALUE(student)%%><%%ENDSELECT%%></td>
+		<td id="Marks-regno-<%%VALUE(id)%%>" class="Marks-regno"><%%SELECT%%><%%VALUE(regno)%%><%%ENDSELECT%%></td>
+		<td id="Marks-year-<%%VALUE(id)%%>" class="Marks-year"><%%SELECT%%><%%VALUE(year)%%><%%ENDSELECT%%></td>
+		<td id="Marks-marks-<%%VALUE(id)%%>" class="Marks-marks text-right"><%%SELECT%%><%%VALUE(marks)%%><%%ENDSELECT%%></td>
+		<td id="Marks-grade-<%%VALUE(id)%%>" class="Marks-grade"><%%SELECT%%><%%VALUE(grade)%%><%%ENDSELECT%%></td>
+		<td id="Marks-academicyear-<%%VALUE(id)%%>" class="Marks-academicyear"><%%SELECT%%><%%VALUE(academicyear)%%><%%ENDSELECT%%></td>
+		<td id="Marks-semester-<%%VALUE(id)%%>" class="Marks-semester"><%%SELECT%%><%%VALUE(semester)%%><%%ENDSELECT%%></td>
+		<td id="Marks-date-<%%VALUE(id)%%>" class="Marks-date"><%%SELECT%%><%%VALUE(date)%%><%%ENDSELECT%%></td>
